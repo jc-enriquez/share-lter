@@ -1,0 +1,107 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
+}
+
+#header {
+  background-image: url('../images/header.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+#header-about {
+  background-image: url('../images/about-header.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0% 70%);
+}
+
+#about-hero {
+  background-image: url('../images/about-hero-3.jpg');
+  clip-path: polygon(100% 32%, 100% 71%, 0 100%, 0 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#signup-header {
+  background-image: url('../images/sign-up-hero.jpg');
+  height: 100vh;
+}
+
+#login-header {
+  height: 100vh;
+}
+
+.carousel img {
+  height: 63rem;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.bg-form-custom {
+  background-color: #fafafa;
+}
+
+.btn-custom {
+  background-color: #ff6600;
+}
+
+.btn-custom a {
+  color: #fff;
+}
+
+.btn-custom a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+}
+
+span {
+  color: #ff6600;
+}
+
+span a {
+  color: #ff6600;
+}
+
+span a:hover {
+  color: #ff6600;
+}
+
+#custom-img-1 {
+  clip-path: polygon(0 0, 97% 0, 76% 100%, 0% 100%);
+  height: 310px;
+  width: 310px;
+}
+
+#custom-img-2 {
+  clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+  height: 310px;
+  width: 310px;
+}
+
+.fa-quote-left {
+  color: #ff6600;
+  font-size: 3rem;
+}
+
+.footer-custom {
+  background-image: url('/assets/images/footer-bg.jpg');
+  background-position: center;
+}
+
+.pagination li .active_link {
+  background: #ff6600 !important;
+}
